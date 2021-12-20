@@ -1,0 +1,12 @@
+.imagen svg{
+    display: block;
+    height: 5000px;
+    width: 550px;
+    position: absolute;
+
+    
+}
+
+.imagen svg:hover{
+    fill-opacity: inherit;
+}

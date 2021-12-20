@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+    
+
+    <header>
+        <strong>
+            <h1 id="arriba">
+                <CENTER> Tacitas Facheras.</CENTER>
+            </h1>
+        </strong>
+
+    </header>
+
+    <main>
+        <hr>
+        <nav>
+            <a href="../Ejercicio_10_1/Ejercicio11.htm"> Anterior</a> |
+            <a href="../index.html" title="volver al indice principal"> Inicio </a> |
+            <a href="../Ejercicio_11/11-iframes.htm" title="Siguiente pagina"> Siguiente>> </a>
+
+        </nav>
+
+        <hr>
+    </main>
+<body>
+    <fieldset style="margin-right: 1100px;">
+    <center>
+        <FORM method=GET action="http://www.google.com/search">
+        <TABLE bgcolor="#FFFFFF"><tr><td>
+        <A HREF="http://www.google.com/">
+        <INPUT TYPE=text name=q size=31 maxlength=255 value="">
+        <INPUT TYPE=hidden name=hl value=es>
+        <INPUT type=submit name=btnG VALUE="Búsqueda Google">
+        </td></tr></TABLE>
+        </FORM>
+        </center>
+
+
+
+        <center>
+            <FORM method=GET action="http://www.amazon.es/">
+            <TABLE bgcolor="#FFFFFF"><tr><td>
+            <A HREF="http://www.amazon.es/">
+            <INPUT TYPE=text name=q size=31 maxlength=255 value="">
+            <INPUT TYPE=hidden name=hl value=es>
+            <INPUT type=submit name=btnG VALUE="Búsqueda Amazon >>">
+            </td></tr></TABLE>
+            </FORM>
+            </center>
+
+
+            <img src="../Imagenes/tazas-colores-personalizadas.jpg" alt="Tazas" height="200px" style="position: absolute;">
+
+
+            <fieldset style="position: relative; margin-left: 200px; margin-top: 30px;">
+                
+                <legend>Elige la cantidad y color de tu tacita</legend>
+                
+
+                <label for=""><p>
+                    Existencias <br>
+                <progress max="100" value="65"> 65% </progress>
+                </p></label>
+                <label for="">
+                Cantidad de tazas
+                <input type="text">
+                </label>
+                <p>Elige un color
+                <input type="color" name="Taza" id="Color-Taza"></p>
+                
+                <form oninput="x.value=parseInt(a.value)"></form>
+                    <input type="range" id="a" value="12">
+                    =<output name="x" for="a b"></output>
+                    </form>
+
+            </fieldset>
+
+        <fieldset>
+            <legend>Datos de envío y facturación</legend>
+            <p>*Campos obligatorios</p>
+
+            <label for="Nombre">
+                *Nombre<input type="text"> *Dirección de entrega<input type="text">
+            </label>
+            <p>
+                <label for="Dia y fecha">
+                    Día de entrega <input type="date" name="fecha" id="fecha"> Hora de entrega (8:00 - 17:00) <input type="time" name="time" id="time">
+
+                </label>
+                
+            </p>
+
+        </fieldset>
+    <fieldset>
+<legend><h1>TARJETA DE CREDITO</h1></legend>
+<p>*Numero de la Tarjeta<input type="text"> *Nombre del titular<input type="text"></p>
+
+<p>*Fecha de caducidad <input type="datetime" name="" id=""></p>
+<p>*Codigo de seguridad <input type="number" name="" id=""></p>
+
+    </fieldset>
+
+
+</fieldset>
+
+<button>ENIVIAR</button>
+
+
+</body>
+</html>

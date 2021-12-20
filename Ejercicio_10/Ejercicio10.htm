@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="shortcut icon" href="../Imagenes/logo.ico" type="image/x -icon" >
+        <link rel="icon" href="/favicon.ico" type="image/x -icon">
+        <title>Ejercicio 10</title>
+        <meta name="title" content="Ejercicio 10">
+        <meta name="keywords" content="HTML, CSS, JavaScript">
+        <meta name="author" content="José Ignacio Godino">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+
+    <header>
+        <strong>
+            <h1 id="arriba">
+                <CENTER> Subasta Online.</CENTER>
+            </h1>
+        </strong>
+
+    </header>
+
+    <main>
+        <hr>
+        <nav>
+            <a href="../Ejercicio_9/09-formularios-1.htm"> Anterior</a> |
+            <a href="../index.html" title="volver al indice principal"> Inicio </a> |
+            <a href="../Ejercicio_10_1/Ejercicio11.htm" title="Siguiente pagina"> Siguiente>> </a>
+
+        </nav>
+
+        <hr>
+<body>
+    <img src="../Imagenes/subastas-online-millonarios-kwEG--1240x698@abc-kimC--1240x698@abc.jpg" alt="subastas-online-millonarios-kwEG--1240x698" width="400px">
+    
+    
+    
+    <fieldset style="margin-right: 1500px;">
+        <legend>
+            Datos Básicos
+        </legend>
+         <form action="Post">
+        <p>Nombre</p>
+        <input type="name">
+        <p>Description</p>
+
+        <textarea name="Descripcion" id="Descripcion" cols="30" rows="10"></textarea>
+
+
+    </form>
+    <label for="Foto">
+      <div class="Archivo">
+
+        <span style="position: relative;">Foto <input type="file" id="archivo1" name="mis_archivos" multiple /></span>
+
+        </div>
+        
+    </label>
+    </fieldset>
+
+
+
+    <fieldset style="margin-right: 1500px;">
+        <legend>
+            Datos económicos
+        </legend>
+
+        <form action="POST" method="post"
+            enctype="text/plain">
+
+    <span style="position: relative;">
+
+                Precio
+
+            <input type="text" id="Precio" name="Precio">
+
+                €
+    
+            Impuestos <select name="porcentajes" id="porcentaje">
+
+                <option>4%</option>
+
+                <option>7%</option>
+
+                <option>16%</option>
+
+                <option>25%</option>
+
+
+            </select>
+            </span>
+        </form>
+
+    <form action="checkboxs">
+        Promoción
+       <p> <input type="checkbox" name="Ninguno" id="ninguno"> Ninguno</p>
+       <p>  <input type="checkbox" name="Transporte gratuito" id="ninguno">Transporte gratuito </p>
+       <p> <input type="checkbox" name="Descuento 5%" id="ninguno">Descuento 5%</p>
+
+    </form>
+    </fieldset>
+
+    <a href="mailto:jigodino11@gmail.com subject= Mensaje desde la Web"><img src="../Imagenes/Enviar.png" alt="enviar"></a>
+    
+</body>
+</html>

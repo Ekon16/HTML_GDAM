@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="shortcut icon" href="../Imagenes/logo.ico" type="image/x -icon" >
+        <link rel="icon" href="/favicon.ico" type="image/x -icon">
+        <title>Ejercicio 8</title>
+        <meta name="title" content="Ejercicio 8">
+        <meta name="keywords" content="HTML, CSS, JavaScript">
+        <meta name="author" content="José Ignacio Godino">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+
+    <header>
+        <strong>
+            <h1 id="arriba">
+                <CENTER> Tablas 2</CENTER>
+            </h1>
+        </strong>
+
+    </header>
+
+    <main>
+        <hr>
+        <nav>
+            <a href="../Ejercicio 7/Ejercicio7.htm"> Anterior</a> |
+            <a href="../index.html" title="volver al indice principal"> Inicio </a> |
+            <a href="../Ejercicio_9/09-formularios-1.htm" title="Siguiente pagina"> Siguiente>> </a>
+
+        </nav>
+
+    </hr>
+    
+    
+    <main>
+    <section>
+    
+        <p>Dos atributos bastante utilizados en tablas son <strong>rowspan</strong>y <strong>colspan</strong>, ambos nos permiten fusionar celdas para conseguir tablas mas complejas:</p>
+
+        <li>
+            <strong>
+                Tabla con dos columnas simples fusionadas,
+            </strong>
+
+            empleando
+
+            <strong>
+                <em>
+                    Colspan
+                </em>
+            </strong>
+        </li>
+
+        <br>
+
+        <table border="i18n">
+            <tr>
+                <td colspan="2">
+                    Las dos columnas fusionadas
+                </td>
+            </tr>
+
+            <tr>
+                <td>
+                    Celda Normal
+                </td>
+
+                <td>
+                    Celda Normal
+                </td>
+            </tr>
+        </table>
+
+        <br>
+
+        <li>
+            <strong>
+                Tabla con dos filas simples fusionadas,
+            </strong>
+
+            empleando
+
+            <strong>
+                <em>
+                    Rowspan
+                </em>
+            </strong>
+        </li>
+
+        <br>
+
+        <table border="i18n">
+            <tr>
+                <td>
+                    Celda normal
+                </td>
+
+                <td rowspan="2">
+                    Las dos filas fusionadas
+                </td>
+            </tr>
+
+            <tr>
+                <td>
+                    Celda Normal
+                </td>
+            </tr>
+        </table>
+
+        <br>
+
+        <br>
+
+        <br>
+
+        <h1>
+            COMPARATIVA DE REPRODUCTORES MP3
+        </h1>
+
+        <br>
+
+        <table border="i18n">
+            <caption>
+                Tabla comparativa de las características técnicas de los reproductores MP-3
+            </caption>
+
+            <thead>
+                <tr>
+                    <td >
+                        
+                    </td>
+
+                    <td align="center" colspan="3">
+                        <img src="../Imagenes/Mini-mp3-bluetooth-negro.jpg" alt="mp3-mini" width="75px">
+
+                        <br>
+
+                        <strong>
+                            MP3 mini
+                        </strong>
+                    </td>
+
+                    <td align="center" colspan="2">
+                        <img src="../Imagenes/Mp3Grande.jpg"alt="mp3-mini" width="100px">
+
+                        <br>
+
+                        <strong>
+                            MP3 grande
+                        </strong>
+                    </td>
+                </tr>
+            </thead>
+
+            <tbody>
+                <tr>
+                    <td align="center">
+                        <strong>
+                            Capacidad de almacenamiento
+                        </strong>
+                    </td>
+
+                    <td>
+                        4GB
+
+                        <br>
+
+                        (1.000 canciones)
+                    </td>
+
+                    <td>
+                        8GB
+
+                        <br>
+
+                        (2.000 canciones)
+                    </td>
+
+                    <td>
+                        16GB
+
+                        <br>
+
+                        (4.000 canciones)
+                    </td>
+
+                    <td>
+                        30GB
+
+                        <br>
+
+                        (7.500 canciones)
+                    </td>
+
+                    <td>
+                        80GB
+
+                        <br>
+
+                        (20.000 canciones)
+                    </td>
+                </tr>
+
+                <tr>
+                    <td align="center">
+                        <strong>
+                            Opinion de los usuarios
+                        </strong>
+                    </td>
+
+                    <td scope= "col">
+                        <img src="../Imagenes/Group 2.png" alt="valoracion-estrellas" width="100px">
+                    </td>
+
+                    <td scope= "col">
+                        <img src="../Imagenes/Group 3.png" alt="valoracion-estrellas" width="100px">
+                    </td>
+
+                    <td scope= "col">
+                        <img src="../Imagenes/Group 1.png" alt="valoracion-estrellas" width="100px">
+                    </td>
+
+                    <td scope= "col">
+                        <img src="../Imagenes/Group 4.png" alt="valoracion-estrellas" width="100px">
+                    </td>
+
+                    <td scope= "col">
+                        <img src="../Imagenes/Group 3.png" alt="valoracion-estrellas" width="100px">
+                    </td>
+                </tr>
+
+                <tr>
+                    <td align="center">
+                        <strong>
+                            Pantalla
+                        </strong>
+                    </td>
+
+                    <td colspan="3">
+                        LCD de 3 cm (diagonal) con restroiluminación
+                    </td>
+
+                    <td colspan="2">
+                        LCD de 6 cm (diagonal) con restroiluminación
+                    </td>
+                </tr>
+
+                <tr>
+                    <td align="center" rowspan="2">
+                        <strong>
+                            Tiempo de carga
+                        </strong>
+                    </td>
+
+                    <td colspan="3" rowspan="2" scope="col">
+                        Unas 3 horas
+                    </td>
+
+                    <td colspan="2" scope="col">
+                        Unas 4 horas
+                    </td>                    
+                </tr>
+
+                <tr>
+                    <td colspan="2" scope="col">
+                        Unas 2 horas para alcanzar el 80% de la capacidad
+                    </td>
+                </tr>
+</tbody>
+</table>
+</section>
+</main>
+</article>

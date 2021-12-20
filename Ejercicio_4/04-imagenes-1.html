@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="shortcut icon" href="../Imagenes/logo.ico" type="image/x -icon" >
+        <link rel="icon" href="/favicon.ico" type="image/x -icon">
+        <title>Ejercicio 4</title>
+        <meta name="title" content="Ejercicio 4">
+        <meta name="keywords" content="HTML, CSS, JavaScript">
+        <meta name="author" content="José Ignacio Godino">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+
+
+<body>
+    <header>
+        <strong>
+            <h1 id="arriba">
+                <CENTER> Sobre las imagenes</CENTER>
+            </h1>
+        </strong>
+
+    </header>
+
+    <main>
+        <hr>
+        <nav>
+            <a href="../Ejercicio_3/03-enlaces.html"> Anterior</a> |
+            <a href="../index.html" title="pagina principal"> Inicio </a> |
+            <a href="../Ejercicio_5/05-imagenes-2.htm" title="SPagina siguiente"> Siguiente>> </a>
+
+        </nav>
+
+        <hr>
+        <section>
+
+            <p>La etiqueta fundamental para insertar una imagen en una pagina web es la <br> img></p>
+
+            <img src="../Imagenes/Pajaro.jpg" alt="hola" height="300" width="250>
+
+            <p>Sin embargo sólo con la etiqueta no es suficiente, necesitamos los atributos básicos que me van a
+                permitir "conectar" con la imagén en sí y mostrar cierta información relativa a la amágen en el caso de
+                que la imagen no s e cargue o por cuestiones de accesibilidad</p>
+
+            <p><strong>Estos atributos fundamentales son:</strong></p>
+            <ul>
+
+                <li><strong>SRC=</strong> "Ruta a la imagen"</li>
+                <li><strong>ALT=</strong> "Descripcion de la imagen"</li>
+                <li><strong>WIDTH=</strong> "Ancho de la imagen en px o %"</li>
+                <li><strong>HEIGHT=</strong> "Altura de la imagen en px o %"</li>
+            </ul>
+            <p>Por lo tanto una etiqueta básica completa para insertar la captura que te muestro a continuación quedaría
+                asi::</p>
+            <p><strong> img="captura 1º.jpg">alt="captura de pantalla de mi web favorita: www.miweb.es/"</strong>
+            </p>
+            <img src="../Imagenes/1_7-f2JsSOV6YKtuxMjgSkbg.jpeg" alt="hola" hspace="30" align="left" height="200" width="190">
+
+            <p>Otros atributos muy utilizados pero no recomendados a dia de hoy para la maquetación (mejor con CSS), pero que todavía se ven en código de manera frecuente son:</p>
+
+            <ul>
+                <li><strong>HSPACE=</strong> "Define un margen horizontal, por ambos lados de la imagen"</li>
+                <li><strong>VSPACE=</strong> "Define un margen horizontal, por ambos lados de la imagen"</li>
+                <li><strong>ALIGN=</strong> "Alineacion de la imagen". este atributo admite varios valores pero los mas
+                    comunes son <strong>left</strong> y <strong>right</strong></li>
+
+            </ul>
+
+            <p>Sin embargo para alinear la imágen la etiqueta imágen debe de estar en el código por delante de la
+                primera letra de la primera linea de parrafo u objeto que se quiere alienar, es decir, la etiqueta que
+                yo he empleado para la imágen de la bombilla es la siguiente:</p>
+            <p><strong>&lt;img src="/money.jpg"width="300"heifht="189"alt=""hspace="20"></strong></p>
+            <hr>
+        </section>
+    </main>
+
+</html>
