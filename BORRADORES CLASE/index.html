@@ -18,15 +18,15 @@
         </style>
 <body>
     
-    <div class="navegador">
+    <nav class="navegador">
 
           
 
             <h1>NOMBRE DE LA PAGINA WEB</h1>
 
-            
+            <span></span>
         
-    </div>
+    </nav>
 
     
         <h1>Esto es un simple borrador</h1>
@@ -54,11 +54,51 @@
         Totam libero illo minus praesentium, illum dicta quis pariatur veniam! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugit molestiae ullam veniam perferendis quod rerum nemo, dignissimos fuga corporis. Quae officia provident 
         vel tempore necessitatibus. Veniam ipsam aperiam blanditiis accusantium.</p>
    </div>
-            
-            
-        
+          
+        <table class="tabla">
+            <tr>
 
+                <td>Celda 1</td>
+            
+                <td>Celda 2</td>
+            
+                <td>Celda 3</td>
+            
+              </tr>
+            
+              <tr>
+            
+                <td>Celda 4</td>
+            
+                <td>Celda 5</td>
+            
+                <td>Celda 6</td>
+            
+              </tr>
+        </table>   
+    
 
+        <form name="contact" method="POST" data-netlify="true">
+            <p>
+              <label>Your Name: <input type="text" name="name" /></label>   
+            </p>
+            <p>
+              <label>Your Email: <input type="email" name="email" /></label>
+            </p>
+            <p>
+              <label>Your Role: <select name="role[]" multiple>
+                <option value="leader">Leader</option>
+                <option value="follower">Follower</option>
+              </select></label>
+            </p>
+            <p>
+              <label>Message: <textarea name="message"></textarea></label>
+            </p>
+            <p>
+              <button type="submit">Send</button>
+            </p>
+          </form>
+          
 
     </body>
 </html>
