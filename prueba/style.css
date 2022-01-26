@@ -1,0 +1,186 @@
+html, body{
+    width: 992px;
+    margin: 0 auto;
+    
+}
+.encabezado{
+    margin-top: 2%;
+    border-bottom: 3px solid rgb(36, 174, 174);;
+    height: 70px;
+}
+#logo img{
+    width: 20%;
+    border-right: 1px solid rgb(36, 174, 174);
+    float: left;
+    
+}
+
+#textologo{
+    width: 20%;
+    float: left;
+    margin-left: 10%;
+}
+
+#contactotelf{
+ 
+
+    float: right;
+    width: 20%;
+    padding: 1%;
+}
+
+#contactotelf p{
+   margin-top: 2%;
+   float: left;
+   margin-left: 2%;
+}  
+
+
+#contactotelf img{
+    width: 10%;
+    float: left;
+    
+
+}
+#imagenes{
+height: 500px;
+margin-top: 20%;
+margin: auto;
+width: 992px;
+
+}
+
+.cosa{
+    height: 400px;
+    width: 170px;
+    float: left;
+    display: block;
+    margin-left: 2.5%;
+    margin-top: 2%;
+    
+}
+
+.bloque{
+    float: left;
+    width: 33%;
+    height: 200px;
+}
+
+.bloque img{
+    
+    width: 7%;
+    height: 10%;
+    float: left;
+
+}
+.bloque section{
+    display: block;
+    float: left;
+    border-bottom: 1px solid black;
+    margin-bottom: 5%;
+    margin-top: 5%;
+    
+}
+.bloque section p{
+    display: block;
+  float: left;
+    margin-left: 5%;
+    
+}
+.bloque span{
+    display: block;
+    width: 70px;
+    margin-bottom: 5%;
+    border-bottom: 6px solid rgb(36, 174, 174);
+}
+
+
+
+
+
+.bloque2{
+    float: left;
+    width: 32%;
+    height: 200px;
+    margin-left: 2%;
+}
+
+.bloque2 img{
+    
+    width: 20%;
+    height: 20%;
+    float: left;
+
+}
+.bloque2 section{
+    display: block;
+    float: left;
+    width: 100%;
+    margin-bottom: 5%;
+    margin-top: 5%;
+    
+}
+.bloque2 section p{
+    display: block;
+    float: left;
+    margin-left: 5%;
+    
+}
+.bloque2 span{
+    display: block;
+    width: 70px;
+    margin-bottom: 5%;
+    border-bottom: 6px solid rgb(36, 174, 174);
+}
+
+
+
+.bloque3{
+    float: left;
+    width: 31%;
+    height: 200px;
+    margin-left: 2%;
+}
+
+.bloque3 img{
+    
+    width: 20%;
+    height: 20%;
+    float: left;
+
+}
+.bloque3 section{
+    display: block;
+    float: left;
+    width: 100%;
+    border-bottom: 1px solid black;
+    margin-bottom: 5%;
+    margin-top: 5%;
+    
+}
+.bloque3 section p{
+    display: block;
+    float: left;
+    margin-left: 5%;
+    
+}
+.bloque3 span{
+    display: block;
+    width: 70px;
+    margin-bottom: 5%;
+    border-bottom: 6px solid rgb(36, 174, 174);
+}
+.line{
+    display: block;
+    width: 70px;
+    margin-bottom: 5%;
+    border-bottom: 6px solid rgb(36, 174, 174);  
+}
+.bloque3 div{
+   display: block;
+   height: 15%;
+   width: 30%;
+   float: left;
+   border: 1px solid rgb(36, 174, 174);
+   margin-left: 2%;
+}
