@@ -1,34 +1,78 @@
-html, body{
-    margin: auto;
-    width: 992px;
-}
-*{
+            *{
+                margin: 4px;
+                padding: 4px;
+            }
 
-}
-.contenedor{
-    border: 1px solid black;
-}
+            
 
-.imagen{
-    border: 1px solid black;
-}
+            body{
+                border: 1px solid rgb(0, 0, 0);
+                width: auto;
+            }
 
-.menu{
-    border: 1px solid black;
-}
+            
 
-.contenido{
-    border: 1px solid black;
-}
+            header{
+                width: 99.4%;
+                margin: 4px auto;
+                border: 1px solid rgb(0, 0, 0);
+            }
 
-.contenido1{
-    border: 1px solid black;
-}
+            
 
-.contenido2{
-    border: 1px solid black;
-}
+            #logotipo{
+                border: 1px solid rgb(0, 0, 0);
+            }
 
-.footer{
-    border: 1px solid black;
-}
+            
+            #imagen{
+                border: 1px solid rgb(0, 0, 0);
+            }
+
+            
+            nav{
+                background-color: rgb(2, 2, 2);
+                color: rgb(255, 253, 253);
+                border: 1px solid rgb(0, 0, 0);
+            }
+
+            
+            main{
+                width: 100%;
+                margin: 4px auto;
+            }
+
+            
+            #contenido{
+                border: 1px solid rgb(0, 0, 0);
+                padding: 4px;
+                margin: 4px;
+                overflow: auto;
+            }
+
+            
+            #principal{
+                border: 1px solid rgb(0, 0, 0);
+                float: left;
+                height: 400px;
+                width: 29%;
+            }
+
+            
+            #secundario{
+                border: 1px solid rgb(0, 0, 0);
+                float: left;
+                height: 450px;
+                width: 69%;
+            }
+
+            
+            footer{
+                clear: both;
+                background-color: rgb(160, 160, 160);
+                width: 99.4%;
+                margin: 4px auto;
+                border: 1px solid rgb(0, 0, 0);
+            }
+
+            

@@ -4,116 +4,145 @@
                 color: #222831;
                 font-size: 100%;
             }
-            a { text-decoration: none;}
-            body
-            {
+            
+            body{
                 max-width: 992px;
                 margin: 0 auto;
             }
-            header
-            {
-                font-size: .8em;
+            header{
+                font-size: 11px;
                 display: flex;
                 flex-flow: row wrap;
                 justify-content: space-between;
                 align-items: center;
                 padding: 20px;
             }
-            #button-header
-            {
+
+
+            #button-header{
                 padding: 10px;
-                border: 1px solid rgba(197, 197, 197, 0.377);
+                border: 1px solid rgba(153, 153, 153, 0.377);
                 background-color: inherit;
-                padding: 10px;
+                padding: 12px;
                 width: 80px;
                 border-radius: 4px;
             }
+
+
+
+
             #button-header:hover { cursor: pointer; background-color: rgba(197, 197, 197, 0.377);}
-            #help
-            {
+            #help{
                 font-size: .9em;
             }
-            main
-            {
+
+
+            /* JOSEIGNACIO GODINO */
+
+
+            main{
                 display: flex;
                 flex-flow: row wrap;
                 justify-content: space-between;
                 margin: 0 auto;
             }
-            h4 { font-size: 1.4em; text-align: center;}
-            #titulo-section
-            {
+            h4 { font-size: 2em; text-align: center;}
+
+
+
+            #titulo-section{
                 text-align: left;
                 font-size: 1.8em;
                 margin: 6px;
             }
-            form 
-            { 
+            form { 
                 margin: 20px;
                 display: flex;
                 flex-flow: row wrap;
             }
-            #column1
-            {
+
+
+
+            #columna1{
                 display: flex;
                 flex-flow: column wrap;
                 margin-right: 10px;
             }
-            label
-            {
+            label{
                 font-size: .9em;
                 padding: 12px;
             }
-            #cb
-            {
+
+            #cb{
                 margin: 0;
                 padding: 0;
                 align-self:flex-end;
             }
-            #column2
-            {
+
+
+
+            #columna2 {
                 margin-left: 50px;
                 display: flex;
                 flex-flow: column wrap;
             }
-            input
-            {
+
+
+
+            input{
                 padding: 6px;
                 margin: 4px;
                 width: 350px;
                 border: 1px solid rgb(197, 197, 197);
                 background-color: rgba(221, 221, 221, 0.219);
             }
-            input::placeholder
-            {
-                font-size: .8em;
+
+
+
+            input::placeholder{
+                font-size: 12px;
                 color: rgb(197, 197, 197);
                 font-weight: 100;
+
             }   
-            input:focus
-            {
+
+
+
+
+            input:focus{
                 border: 1px solid rgb(163, 163, 163);
             }
-            input::selection
-            {
+
+
+
+            input::selection{
                 border: 1px solid red;
             }
-            #cb-text
-            {
+
+
+
+
+            #cb-text{
                 font-size: .8em;
             }   
+
+
             #cb-text a
             {
                 color: #5FB364;
                 text-decoration: underline;
-            }   
+            }  
+            
+            
+
             #cb-text a:hover, a:active
             {
                 color: #57cf5f;
                 text-decoration: underline;
             }   
-            #button-submit
-            {
+
+
+            #button-submit{
                 width: 125px;
                 font-size: .8em;
                 background-color: #5FB364;
@@ -122,7 +151,13 @@
                 padding: 8px;
                 border-radius: 2px;
             } 
-            #button-submit:hover { cursor: pointer; background-color: #57cf5f;}
+            #button-submit:hover { 
+                cursor: pointer; 
+                background-color: #57cf5f;
+            }
+
+
+
             aside div
             {
                 border: 1px solid rgba(197, 197, 197, 0.377);
@@ -130,45 +165,59 @@
                 flex-flow: column wrap;
                 font-size: .8em;
             }   
-            span
-            {
+            span{
                 padding: 4px;
             }  
-            h5
-            {
+
+            h5{
                 margin: 6px auto;
                 padding: 6px;
-                color: #5FB364;
+                color: #65b36b;
             }
-            #caja1 { margin-top: 60px; margin-bottom: 14px; }
-            #button-aside 
-            {
+
+
+
+            #caja1 { 
+                margin-top: 70px; 
+                margin-bottom: 15px; 
+                text-decoration:line-through;
+            }
+
+
+
+
+            #button-aside {
                 margin: 8px;
                 padding: 8px;
-                background-color: #5FB364;
+                background-color: #4fa055;
                 color: white;
                 border: 0px solid;
                 border-radius: 2px;
             }
-            #button-aside:hover { cursor: pointer; background-color: #57cf5f; }
-            #footer
-            {
-                border-top: 1px solid rgba(197, 197, 197, 0.377);
+
+
+            #button-aside:hover { 
+                cursor: pointer; 
+                background-color: #57cf5f; 
             }
-            #footer h4
-            {
+
+            #footer{
+                border-top: 1px solid rgba(177, 177, 177, 0.377);
+            }
+
+            #footer h4{
                 font-weight: 100;
                 text-align: left;
                 font-size: 1.2em;
             }
-            #footer p
-            {
+
+            #footer p{
                 text-align: left;
                 font-size: .9em;
             }
-            #button-login
-            {
-                border: 1px solid #5FB364;
+
+            #button-login{
+                border: 1px solid #67c46e;
                 color: #5FB364;
                 background-color: inherit;
                 border-radius: 2px;
@@ -176,4 +225,11 @@
                 font-size: .8em;
                 width: 100px;
             }
-            #button-login:hover { cursor: pointer; background-color: #5FB364; color: white;}
+
+
+
+            #button-login:hover { 
+                cursor: pointer; 
+                background-color: #439b49; 
+                color: white;
+            }
